@@ -1,0 +1,321 @@
+*{
+     border: 0;
+     padding: 0;
+     margin: 0;
+ 
+}
+
+h5{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 75px;
+  font-weight: 900;
+
+
+}
+td {
+  text-align: center;
+  padding: 5px;
+}
+th {
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+  background-color: #30134f;
+}
+table,
+td,
+th {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+tr:nth-of-type(odd) {
+  background-color: #E6E6FA;
+}
+
+tr:nth-of-type(even) {
+ background-color: #fff;
+}
+.features {
+  min-height: 0vh;
+  /* https://unsplash.com/photos/-Irs24DzLxM */
+  background-image: url(../images/wesley-tingey--Irs24DzLxM-unsplash.jpg);
+  background-repeat: repeat;
+}
+
+.features .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.features .box-container .box {
+  text-align: center;
+  margin: 1.5rem;
+  padding: 1rem;
+
+  width: 20rem;
+}
+
+.features .box-container .box i {
+  height: 4rem;
+  width: 4rem;
+  line-height: 5rem;
+  text-align: center;
+
+  color: #333;
+  font-size: 3.8rem;
+  margin: 1rem 0;
+}
+
+.features .box-container .box h3 {
+  color: #000;
+  font-size: 2.5rem;
+}
+
+.features .box-container .box p {
+  color: #000;
+  font-size: 1.2rem;
+  padding: 1rem 0.5rem;
+  font-weight: 800;
+}
+h3  {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.7em;
+    text-align: center;
+    background-color: #E6E6FA;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.fa-book , .fa-chalkboard-teacher , .fa-microchip {
+       font-size: 1.9em;
+       padding-left: 20px;
+    padding-top: 20px;
+    
+}
+.mini{
+    text-align: center;
+    background-color: #E6E6FA;
+    padding-right: 15px;
+    padding-bottom: 70px;
+    
+}
+h5 {
+  text-align: center;
+  font-size: 1.8em;
+  padding-top: 40px;
+}
+.heading {
+  padding-top: 20px;
+}
+
+
+#wrapper1{
+    background-color: #DCDCDC;
+    padding-bottom: 30px;
+}
+
+.wrapper{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    background-color: #fff;
+}
+.card{
+    background-color: #404040;
+    width:320px;
+    height: 370px;
+    margin: 30px;
+  
+    margin-top: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.cardhead{
+    font-size: 1.6em;
+    color: #fff;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.cardtext{
+    
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cardbutton{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;      
+        text-align: center;
+        font-size: 1.2em;
+        border-radius: 15px;
+        margin-top: 20px;
+        font-size: 1.2em;
+        font-weight: 800;
+        padding: 10px 30px;;
+        margin-bottom: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button #bt{
+  color:#000;
+}
+
+.cardinner1{
+    /* https://www.pexels.com/photo/hands-on-a-laptop-keyboard-5474285/ */
+     background-image: url(img1.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 220px;
+     background-size: cover;
+}
+.cardinner2{
+    /* https://www.pexels.com/photo/man-in-grey-sweater-holding-yellow-sticky-note-879109/ */
+     background-image: url(img2.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 220px;
+     background-size: cover;
+}
+.cardinner3{
+    /* https://www.pexels.com/photo/coding-script-965345/ */
+     background-image: url(img3.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 220px;
+     background-size: cover;
+}
+
+.cardbutton:hover{
+       background-color: #CBC3E3;
+
+}
+
+.cardheader{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.9em;
+    padding-top: 30px;
+}
+.fa-cart-arrow-down{
+    padding-left:  8px;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px),
+{
+    
+ 
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+   
+      
+  }
+  tr {
+    border: 1px solid black;
+  }
+  td {
+    border: none;
+    border-bottom: 1px solid black;
+    position: relative;
+    padding-left: 50%;
+  }
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  td:nth-of-type(1):before {
+    content: "S.No";
+    
+  }
+  td:nth-of-type(2):before {
+    content: "Courses";
+  }
+  td:nth-of-type(3):before {
+    content: "Price";
+  }
+  td:nth-of-type(4):before {
+    content: "Location";
+  }
+  td:nth-of-type(5):before {
+    content: "Rating";
+  }
+  td:nth-of-type(6):before {
+    content: "Seats Available";
+  }
+  .container4 {
+    padding-right: 20px;
+    margin-right: 75px;
+  }
+
+
+
+
+  h5 {
+    font-size: 1.8em;
+    margin-left: 110px;
+  }
+    
+    
+.wrapper{
+          width: 100%;
+    }
+    .hero2{
+        width:100%;
+        display: block;
+    }
+    .pic{
+        width: 100%;
+        height: 60vh;
+    }
+    
+ 
+  
+    .wrapper{
+        display: inline-block;
+        margin-left: 50px;
+        
+    }
+  
+    h2{
+        text-align: center;
+    }
+
+    .content{
+        margin-left: 10px;
+    }
+}
